@@ -1,0 +1,29 @@
+---
+title: "Report on Studying African Farmer-Led Irrigation (SAFI) database"
+author: "Brooke Luetgert"
+date: "10/21/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## SAFI Dataset
+
+The data included in our interviews comes from the Studying African Farmer-Led Irrigation study, which was conducted in the Eastern sub-Saharan regions of Mozambique and Tanzania. The survey data was collected through interviews conducted between November 2016 and June 2017. The survey covered such things as; household features (e.g. construction materials used, number of household members), agricultural practices (e.g. water usage), assets (e.g. number and types of livestock) and details about the household members. The data are an open access, teaching resource.
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
